@@ -4,8 +4,6 @@ body {
     background-color: lightcoral !important;
 }
 
-.blockA {
-    background-color: lightcyan;
+.form-container {
+    max-width: 25vw !important;
 }
-
-.form-container
