@@ -1,9 +1,24 @@
 
 
 body {
-    background-color: lightcoral !important;
+    background-color: bisque !important;
+}
+
+.blockA {
+    background-color: azure;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+    margin: 50px;
 }
 
 .form-container {
     max-width: 25vw !important;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.resultContainer {
+    margin: 50px;
 }
