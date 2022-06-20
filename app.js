@@ -1,3 +1,5 @@
-fetch('http://example.com/movies.json')
-  .then(response => response.json())
-  .then(data => console.log(data));
+const url = "https://goweather.herokuapp.com/weather/oregon";
+
+fetch(url)
+.then(response => respsonse.json())
+.then(data => console.log(data));
