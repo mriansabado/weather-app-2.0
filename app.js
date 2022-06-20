@@ -1,10 +1,3 @@
-
-
-
-const url='https://goweather.herokuapp.com/weather/Maui';
-
-fetch(url)
-.then(data=>{return data.json()})
-.then(res=>console.log(res['description']))
-.catch(error=>console.log(error))
-
+fetch('http://example.com/movies.json')
+  .then(response => response.json())
+  .then(data => console.log(data));
